@@ -8,7 +8,7 @@ from setuptools import setup
 readme = open('README.rst').read()
 
 install_requires = [
-    'feedparser==5.0.0',
+    'feedparser==5.0.1',
 ]
 
 tests_require = [
