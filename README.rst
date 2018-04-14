@@ -18,4 +18,21 @@ The many_versioned_wheel package is on PyPI so all you need is:
 
 .. code-block:: console
 
-    $ pip install many_versioned_wheel
+    pip install many_versioned_wheel
+
+
+To make a new version
+=====================
+
+- Change the version in many_versioned_wheel/version.py, commit it
+- Run commands something like these:
+
+.. code-block:: console
+
+    git tag <the version num>
+
+    python setup.py bdist_wheel
+
+    twine upload dist/*
+
+    git push
