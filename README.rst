@@ -1,5 +1,5 @@
 =======
-Many_Versioned_Wheel
+many-versioned-wheel
 =======
 
 Small python library that is used for testing versioning and other things relating to pypi.
@@ -18,7 +18,7 @@ The many_versioned_wheel package is on PyPI so all you need is:
 
 .. code-block:: console
 
-    pip install many_versioned_wheel
+    pip install many-versioned-wheel
 
 
 To make a new version
