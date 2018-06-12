@@ -8,7 +8,7 @@ from setuptools import setup
 readme = open('README.rst').read()
 
 install_requires = [
-    'feedparser==5.0.1',
+    'requests==2.19.0',
 ]
 
 tests_require = [
@@ -40,7 +40,7 @@ setup(
     tests_require=tests_require,
     entry_points={
         'console_scripts': [
-            'many_versioned_wheel=many_versioned_wheel:print_version',
+            'mvw=many_versioned_wheel:print_version',
         ],
     },
 )

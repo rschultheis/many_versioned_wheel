@@ -31,7 +31,9 @@ To make a new version
 
     git tag <the version num>
 
-    python setup.py bdist_wheel
+    pip3 install wheel
+
+    python3 setup.py bdist_wheel
 
     twine upload dist/*
 
