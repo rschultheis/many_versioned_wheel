@@ -8,7 +8,7 @@ from setuptools import setup
 readme = open('README.rst').read()
 
 install_requires = [
-    'requests==2.19.0',
+    'requests==2.20.0',
 ]
 
 tests_require = [
